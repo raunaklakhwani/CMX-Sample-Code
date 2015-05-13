@@ -6,9 +6,10 @@ mseIp is the IP of the MSE() in the CMX
 macs is the list of the mac addresses which are to be tracked
 username/password are the credentials to access the apis of the CMX
 you don't need to change urlPrefix and urlSuffix but still just verify them according to your environment.
-If you have any issues in running this code, either mail it to :
-or issue a bug in the github repository giving all the details of your environment
+If you have any issues in running this code
+you can issue a bug in the github repository giving all the details of your environment
 '''
+__author__ = "Ronak Lakhwani"
 
 
 ##### General Imports ######
