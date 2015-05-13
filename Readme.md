@@ -9,6 +9,7 @@ To run the sample codes, you need the following items.
 		in case this doesn't work try: sudo pip install plotly
 		in case of any further issues regarding installation of plotly, use the following url : https://plot.ly/python/getting-started/
 3. You need to specify the responseFormat while running the program in the config section of the samples.
+
 	3a.	if you are specifying "xml" then you should install xml parser "BeautifulSoup" as this is being used in the program. 
 	To install beautifulsoup use the following command:
 		pip install beautifulsoup4
