@@ -11,28 +11,28 @@ you can issue a bug in the github repository giving all the details of your envi
 '''
 __author__ = "Ronak Lakhwani"
 
-##### General Imports ######
+#============ General Imports 
 from datetime import datetime
 
-##### Imports for calling the CMX Rest API ######
+#==========Imports for calling the CMX Rest API 
 import urllib2
 from urllib2 import URLError
 
-##### Imports for reading the xml response ######
+#=========== Imports for reading the xml response
 from bs4 import BeautifulSoup
 
-##### Imports for reading the json response ######
+# ========== Imports for reading the json response
 import json
 
 
-##### Imports for plotting the graph ######
+# ================= Imports for plotting the graph
 import plotly.plotly as py
 import plotly.tools as tls
 from plotly.graph_objs import Layout,Marker,Scatter,XAxis,YAxis,Data,Figure
 
 
-############# CONFIGURATION STARTS####################
-############# Change it according to your local environment ####################
+# ================ CONFIGURATION STARTS
+# ================ Change it according to your local environment.
 version = "MSE8.0"
 urlPrefix = "https://"
 mseIp = "128.107.125.15"
@@ -41,7 +41,7 @@ mac = "3c:a9:f4:33:66:40"
 username = "learning"
 password = "learning"
 responseFormat = "xml" # Could be xml or json
-############# CONFIGURATION ENDS####################
+# ================CONFIGURATION ENDS
 
 
 def getResponse(URL, username, password,responseFormat):
